@@ -1,22 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
-// braindead
-using ll = long long;
-#define int ll
 
 // types
+using ll = long long;
 using ld = long double;
 using ull = unsigned long long;
 
 // vectors 
 using vi = vector<int>;
+using vll = vector<ll>;
+using vvll = vector<vi>;
 using vd = vector<double>;
 using vb = vector<bool>;
-using vvi = vector<vi>;
 
 // others 
-using pii = pair<int,int>;
+using pi = pair<int,int>;
+using pll = pair<ll,ll>;
  
 // shorthand
 #define pf push_front
