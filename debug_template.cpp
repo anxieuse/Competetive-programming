@@ -1,22 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
-// braindead
-using ll = long long;
-#define int ll
 
 // types
+using ll = long long;
 using ld = long double;
 using ull = unsigned long long;
 
 // vectors 
 using vi = vector<int>;
+using vll = vector<ll>;
+using vvll = vector<vi>;
 using vd = vector<double>;
 using vb = vector<bool>;
-using vvi = vector<vi>;
 
 // others 
-using pii = pair<int,int>;
+using pi = pair<int,int>;
+using pll = pair<ll,ll>;
  
 // shorthand
 #define pf push_front
@@ -39,14 +38,14 @@ using pii = pair<int,int>;
 #define forr1(i, n) for (int i = (int)(n); i >= 1; --i)          // reverse 1 based
 #define trav(a, x) for (auto &a : x)
  
-// other
+// others
 #define endl '\n'
 #define fast_io              \
     ios::sync_with_stdio(0); \
     cin.tie(0);              \
     cout.tie(0)
  
-const ll inf = LLONG_MAX / 3;
+const ll INF = LLONG_MAX / 3;
 
 template <typename A, typename B>
 string to_string(pair<A, B> p);
